@@ -1,0 +1,4 @@
+<h1>Welcome to Airbnb</h1>
+<% @flats.each do |flat| %>
+  <li><%=link_to flat.name, flat_path(flat) %></li>
+<% end %>

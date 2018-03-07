@@ -1,0 +1,4 @@
+class Flat < ApplicationRecord
+
+end
+
